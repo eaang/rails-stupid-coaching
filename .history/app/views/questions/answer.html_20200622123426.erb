@@ -1,0 +1,17 @@
+<div class="question">
+<p><%= params[:question] %></p>
+<p class="person">– You</p>
+</div>
+
+<div class="answer">
+<p><%= params[:question] %></p>
+<p class="person">– You</p>
+</div>
+
+<% if params[:question][-1] == '?' %>
+<strong>Coach:</strong>  Silly question, get dressed and go to work!
+  <% else %>
+<strong>Coach:</strong>  I don't care, get dressed and go to work!
+<% end %>
+<br>
+ <%= link_to "Ask a new question", ask_path %>

@@ -18,29 +18,10 @@ body {
   }
   // Styling for question page
   form {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    input[type="text"] {
-      width: 500px;
-      height: 2em;
-      border: 1px solid lightgray;
-      border-top-left-radius: 3px;
-      border-bottom-left-radius: 3px;
-      padding-left: 5px;
-      font-size: 1.2em;
-      font-family: 'Roboto', sans-serif;
-    }
-    input[type="submit"] {
-      background-color: #337AB7;
-      color: #fff;
-      font-weight: 700;
-      width: 50px;
-      border: 0;
-      border-top-right-radius: 3px;
-      border-bottom-right-radius: 3px;
-      font-size: 1.2em;
-      font-family: 'Roboto', sans-serif;
+    .question-box {
+      width: 600px;
+      border: 1px solid lightslategray;
+      border-radius: 10;
     }
   }
 
