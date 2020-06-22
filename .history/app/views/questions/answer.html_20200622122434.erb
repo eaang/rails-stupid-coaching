@@ -1,0 +1,8 @@
+<strong>You said:</strong> <%= params[:question] %>
+<br>
+<% if params[:question][-1] == '?' %>
+<strong>Coach:</strong>  Silly question, get dressed and go to work!
+  <% else %>
+<strong>Coach:</strong>  not wow!
+<% end %>
+ 
